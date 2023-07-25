@@ -9,3 +9,5 @@ mvn clean test -DargLine="-javaagent:$JAVA_AGENT=$CONFIG_FILE"
 
 echo "Content of file: $CG_JSON_FILE"
 wc -l $CG_JSON_FILE
+
+
